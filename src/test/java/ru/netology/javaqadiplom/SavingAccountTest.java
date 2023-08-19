@@ -26,7 +26,7 @@ public class SavingAccountTest {
                 10_000,
                 5
         );
-        account.pay(-1_000);
+        account.pay(1_000);
 
         Assertions.assertEquals(2000 - 1000, account.getBalance());
     }
