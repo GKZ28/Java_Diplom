@@ -13,7 +13,6 @@ public class SavingAccountTest {
                 10_000,
                 5
         );
-<<<<<<< HEAD
         account.add(3_000);
 
         Assertions.assertEquals(2000 + 3_000, account.getBalance());
@@ -97,11 +96,5 @@ public class SavingAccountTest {
         Assertions.assertEquals(0, account.yearChange());
     }
 }
-=======
 
-        account.add(3_000);
 
-        Assertions.assertEquals(2_000 + 3_000, account.getBalance());
-    }
-}
->>>>>>> credit
